@@ -1,0 +1,62 @@
+@import "rsuite/dist/rsuite.css";
+
+
+.card-img {
+  width: 300px !important;
+  max-height: 300px;
+  object-fit: cover;
+  padding: 2rem;
+  margin: auto;
+  transition: transform .2s ease-in-out;   
+
+}
+.card-img:hover{
+  transform: scale(1.2)
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgb(246 250 255) !important;
+}
+
+.navbar-nav 
+.nav-link {
+  text-decoration: none ;
+  text-transform: capitalize;
+
+}
+
+.navbar-brand{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none ;
+  color: #315272 !important;
+  text-transform: capitalize;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-dark {
+font-size: 1rem;
+font-weight: bold;
+  background-color: #315272 !important;
+}
+
+
+
+a:hover, a:focus {
+  
+  text-decoration: none;
+}
+
+
+.card-title {
+  color: #315272 }
+
+
+  .cart {
+    color: #315272 !important;
+    font-weight: bold !important;
+  }
