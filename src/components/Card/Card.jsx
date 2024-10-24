@@ -4,7 +4,6 @@ export default function Card(props) {
     const {product}=props;
   return (
     <>
-
     <div className="card border-0 rounded-25 shadow h-100">
     <img src={product.image} className="card-img" alt={product.description}/>
     <div className="card-body mt-3 mb-3">
@@ -29,10 +28,11 @@ export default function Card(props) {
             <h5>{product.price}$</h5>
         </div>
         <div className="col-8">
-            <a href="/#" className="btn btn-dark  shadow  w-100 p-2 rounded-22   text-white text-decoration-none">ADD TO CART</a>
+            <a href="/#" className="btn btn-dark  shadow  w-100 p-2 rounded-0  text-white text-decoration-none">ADD TO CART</a>
         </div>
     </div>
 </div>
+
     </>
   )
 }

@@ -1,6 +1,16 @@
 @import "rsuite/dist/rsuite.css";
 
 
+
+.navbar {
+  border-bottom: 1px solid #C9D4E0;
+  background-clip: border-box;
+  background-color: #ffffff;
+  z-index: 5;
+  transition: 0.3s all;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
 .card-img {
   width: 300px !important;
   max-height: 300px;
@@ -60,3 +70,19 @@ a:hover, a:focus {
     color: #315272 !important;
     font-weight: bold !important;
   }
+
+
+  .Products {
+    background-color: rgb(246 250 255) !important;
+    padding: 50px;
+
+  }
+
+
+  .card {
+    border: 0;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  }
+
+

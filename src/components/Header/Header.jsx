@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/#">Shoptopia</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,8 @@ export default function Header() {
       </ul>
     </div>
   </div>
-</nav>
+  </nav>
+ 
     </>
   )
 }
